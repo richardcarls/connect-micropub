@@ -1,0 +1,32 @@
+{
+  "name": "connect-micropub",
+  "version": "0.1.0",
+  "description": "Micropub middleware for Connect and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardcarls/connect-micropub.git"
+  },
+  "keywords": [
+    "Connect"
+  ],
+  "author": "Richard Carls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardcarls/connect-micropub/issues"
+  },
+  "homepage": "https://github.com/richardcarls/connect-micropub#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "lodash": "^4.13.1",
+    "throw.js": "^2.0.0"
+  }
+}
